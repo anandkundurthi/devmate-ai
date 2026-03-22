@@ -12,7 +12,7 @@ function App() {
       setLoading(true);
       setResult("");
 
-      const res = await axios.post("http://localhost:8000/analyze", {
+      const res = await axios.post("https://devmate-ai-8ft6.onrender.com/analyze", {
         repoUrl: url,
       });
 
